@@ -6,6 +6,7 @@
     "column_name": "event_date",
     "field_path": "event_date",
     "data_type": "STRING",
+    "description": "dasdasdasdasd",
     "collation_name": "NULL",
     "primary_key": false,
     "foreign_key": false,
