@@ -6,5 +6,9 @@
   {
     "question_text": "another manual query question",
     "sql_query_text": "SELECT\n  CURRENT_TIMESTAMP() AS `current_timestamp`"
+  },
+  {
+    "question_text": "How many apples",
+    "sql_query_text": "SELECT\n  `bfuid_col_5`,\n  `bfuid_col_6`\nFROM\n  (\n    SELECT\n      `t0`.`bfuid_col_5`,\n      `t0`.`bfuid_col_6`,\n      `t0`.`bfuid_col_8` AS `bfuid_col_11`\n    FROM\n      `foreign-connect-48db5._285bbed2427f1900428425d1f9445d8a9d8b7062.bqdf20250403_sessione13562_ee1420524df0449fab0ad9f613af186d` AS `t0`\n  )\nORDER BY\n  `bfuid_col_11` ASC NULLS LAST"
   }
 ]
